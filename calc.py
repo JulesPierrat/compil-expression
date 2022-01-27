@@ -48,6 +48,7 @@ def calc_deep(calcul, deepness):
             # Isol the simple calculus
             if(compt == deepness-1):
                 calcul = calcul[0:i] + "|" + calcul[i+1:]
+                break
     
     # Transform calculus in array to isol simple calcul
     calcul = calcul.split('|')
